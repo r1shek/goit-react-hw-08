@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background-color: #303f9f;
+}
