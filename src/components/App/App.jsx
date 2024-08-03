@@ -6,7 +6,7 @@ import HomePage from '../../pages/HomePage';
 import ContactsPage from '../../pages/ContactsPage';
 import LoginPage from '../../pages/LoginPage';
 import RegistrationPage from '../../pages/RegistrationPage';
-import { refreshUser } from '../../redux/auth/operation';
+import { refreshUser } from '../../redux/auth/operations';
 import { selectIsRefreshing } from '../../redux/auth/selectors';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import RestrictedRoute from '../RestrictedRoute/RestrictedRoute';
